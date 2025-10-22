@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E-Library | Membership</title>
+  <link rel="stylesheet" href="membership.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">📚 E-Library</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="authors.html">Authors</a></li>
+        <li><a href="genres.html">Genres</a></li>
+        <li><a href="membership.html" class="active">Membership</a></li>
+        <li><a href="faq.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Join the E-Library</h1>
+    <form class="membership-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="membership">Membership Type</label>
+      <select id="membership" name="membership">
+        <option value="basic">Basic</option>
+        <option value="premium">Premium</option>
+        <option value="student">Student</option>
+      </select>
+
+      <label for="comments">Comments / Preferences</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Library | All rights reserved.</p>
+  </footer>
+</body>
+</html>

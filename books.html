@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E-Library | Books</title>
+  <link rel="stylesheet" href="books.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="sticky-header">
+    <nav class="navbar">
+      <div class="logo">📚 E-Library</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="books.html" class="active">Books</a></li>
+        <li><a href="authors.html">Authors</a></li>
+        <li><a href="genres.html">Genres</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="faq.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Available Books</h1>
+    <div class="book-grid">
+      
+      <div class="book-card relative-card">
+        <img src="book1.jpg" alt="Book 1">
+        <h3>The Great Gatsby</h3>
+        <p>by F. Scott Fitzgerald</p>
+        <div class="progress-container" title="Borrowed 75 times">
+          <span class="progress-text">75 borrows</span>
+          <div class="progress-bar">
+            <div class="progress-fill" style="--fill: 75%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card relative-card">
+        <img src="book2.jpg" alt="Book 2">
+        <h3>1984</h3>
+        <p>by George Orwell</p>
+        <div class="progress-container" title="Borrowed 90 times">
+          <span class="progress-text">90 borrows</span>
+          <div class="progress-bar">
+            <div class="progress-fill" style="--fill: 90%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card relative-card">
+        <img src="book3.jpg" alt="Book 3">
+        <h3>To Kill a Mockingbird</h3>
+        <p>by Harper Lee</p>
+        <div class="progress-container" title="Borrowed 65 times">
+          <span class="progress-text">65 borrows</span>
+          <div class="progress-bar">
+            <div class="progress-fill" style="--fill: 65%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card relative-card">
+        <img src="book4.jpg" alt="Book 4">
+        <h3>The Alchemist</h3>
+        <p>by Paulo Coelho</p>
+        <div class="progress-container" title="Borrowed 50 times">
+          <span class="progress-text">50 borrows</span>
+          <div class="progress-bar">
+            <div class="progress-fill" style="--fill: 50%;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="fixed-footer">
+    <p>&copy; 2025 E-Library | All rights reserved.</p>
+  </footer>
+</body>
+</html>
